@@ -12,5 +12,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/json-20140107.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/xpp3-1.1.4c.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/Connect-SDK-Java-Core-1.0.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

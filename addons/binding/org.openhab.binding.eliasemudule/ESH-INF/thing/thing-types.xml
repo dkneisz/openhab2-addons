@@ -5,25 +5,28 @@
 	xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
 
 	<!-- Sample Thing Type -->
-	<thing-type id="sample">
+	<thing-type id="eliasemodule">
 		<label>EliasEMudule Binding Thing</label>
 		<description>Sample thing for EliasEMudule Binding</description>
 
 		<channels>
-			<channel id="channel1" typeId="sample-channel" />
+			<channel id="molules" typeId="modules-channel" />
 		</channels>
 
 		<config-description>
-			<parameter name="config1" type="text" required="true">
-				<label>Sample parameter</label>
-				<description>This is a sample text configuration parameter.</description>
+			<parameter name="user" type="text" required="true">
+				<label>User</label>
+				<description>User for Elias eModule page.</description>
+			</parameter>
+			<parameter name="password" type="text" required="true">
+			     <label>Password</label>
 			</parameter>
 		</config-description>
 
 	</thing-type>
 
 	<!-- Sample Channel Type -->
-	<channel-type id="sample-channel">
+	<channel-type id="modules-channel">
 		<item-type>eliasemuduleItem</item-type>
 		<label>EliasEMudule Binding Channel</label>
 		<description>Sample channel for EliasEMudule Binding</description>

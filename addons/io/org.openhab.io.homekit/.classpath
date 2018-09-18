@@ -15,5 +15,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/org.bouncycastle.bcprov-jdk15on-1.51.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/org.glassfish.javax.json-1.0.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/org.zeromq.curve25519-java-0.1.0.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

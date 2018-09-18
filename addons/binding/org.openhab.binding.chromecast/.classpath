@@ -11,5 +11,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/api-v2-0.10.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jackson-core-asl-1.9.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/jackson-mapper-asl-1.9.2.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -29,5 +29,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/proto-google-cloud-texttospeech-v1beta1-0.18.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/protobuf-java-3.5.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/threetenbp-1.3.6.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

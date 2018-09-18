@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="src/main/java/"/>
 	<classpathentry exported="true" kind="lib" path="lib/tubesock-0.0.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/rxjava-1.1.7.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -10,7 +10,6 @@
   </parent>
 
   <artifactId>org.openhab.binding.eliasemudule</artifactId>
-  <packaging>eclipse-plugin</packaging>
 
   <name>EliasEMudule Binding</name>
 

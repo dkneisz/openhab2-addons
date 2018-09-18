@@ -10,5 +10,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/ftplet-api-1.1.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/ftpserver-core-1.1.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/mina-core-2.0.16.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

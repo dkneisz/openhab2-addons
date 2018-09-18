@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="src/main/java/"/>
 	<classpathentry exported="true" kind="lib" path="lib/commons-lang3-3.4.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/zway-lib-0.2.9-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

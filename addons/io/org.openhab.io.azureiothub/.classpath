@@ -11,5 +11,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/iot-device-client-1.2.27.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/iot-service-client-1.4.20.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/javax.json-api-1.0.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
