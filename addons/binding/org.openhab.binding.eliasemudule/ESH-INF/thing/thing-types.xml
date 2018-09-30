@@ -4,32 +4,61 @@
 	xmlns:thing="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0"
 	xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
 
-	<!-- Sample Thing Type -->
-	<thing-type id="eliasemodule">
-		<label>EliasEMudule Binding Thing</label>
-		<description>Sample thing for EliasEMudule Binding</description>
-
-		<channels>
-			<channel id="molules" typeId="modules-channel" />
-		</channels>
-
+	<bridge-type id="emoduleaccount">
+		<label>eModule Login</label>
 		<config-description>
-			<parameter name="user" type="text" required="true">
+			<parameter name="username" type="text" required="true">
 				<label>User</label>
-				<description>User for Elias eModule page.</description>
 			</parameter>
 			<parameter name="password" type="text" required="true">
-			     <label>Password</label>
+				<label>Password</label>
 			</parameter>
 		</config-description>
+	</bridge-type>
+	<thing-type id="module">
+		<supported-bridge-type-refs>
+			<bridge-type-ref id="emoduleaccount" />
+		</supported-bridge-type-refs>
+		<label>Module</label>
+        <channels>
+            <channel typeId="modulename" id="modulename"></channel>
+            <channel typeId="zones" id="zones"></channel>
+        </channels>
+	</thing-type>
+	<thing-type id="zone">
+		<supported-bridge-type-refs>
+			<bridge-type-ref id="emoduleaccount" />
+		</supported-bridge-type-refs>
+		<label>Zone</label>
+		<description>Zone</description>
 
+		<channels>
+			<channel typeId="zonename" id="zonename"></channel>
+			<channel typeId="temperature" id="temperature"></channel>
+		</channels>
 	</thing-type>
 
 	<!-- Sample Channel Type -->
-	<channel-type id="modules-channel">
-		<item-type>eliasemuduleItem</item-type>
-		<label>EliasEMudule Binding Channel</label>
-		<description>Sample channel for EliasEMudule Binding</description>
+
+	<channel-type id="modulename">
+		<item-type>String</item-type>
+		<label>Module name</label>
+		<state readOnly="true" pattern="%s" />
+	</channel-type>
+	<channel-type id="zones">
+		<item-type>Number</item-type>
+		<label>Number of Zones</label>
+		<state readOnly="true" pattern="%d" />
+	</channel-type>
+	<channel-type id="zonename">
+		<item-type>String</item-type>
+		<label>Zone name</label>
+		<state readOnly="true" pattern="%s" />
+	</channel-type>
+	<channel-type id="temperature">
+		<item-type>Number</item-type>
+		<label>Temperature</label>
+		<state readOnly="true" pattern="%d" />
 	</channel-type>
 
 </thing:thing-descriptions>

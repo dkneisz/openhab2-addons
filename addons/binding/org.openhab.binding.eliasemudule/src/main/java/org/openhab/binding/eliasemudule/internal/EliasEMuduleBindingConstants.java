@@ -20,11 +20,15 @@ import org.eclipse.smarthome.core.thing.ThingTypeUID;
 @NonNullByDefault
 public class EliasEMuduleBindingConstants {
 
-    private static final String BINDING_ID = "eliasemudule";
+    private static final String BINDING_ID = "eliasemodule";
 
     // List of all Thing Type UIDs
-    public static final ThingTypeUID THING_TYPE_SAMPLE = new ThingTypeUID(BINDING_ID, "eliasemudule");
+    public static final ThingTypeUID THING_TYPE_MODULE = new ThingTypeUID(BINDING_ID, "module");
+    public static final ThingTypeUID THING_TYPE_ZONE = new ThingTypeUID(BINDING_ID, "zone");
 
     // List of all Channel ids
-    public static final String CHANNEL_MODULES = "modules";
+    public static final String CHANNEL_MODULENAME = "modulename";
+    public static final String CHANNEL_ZONES = "zones";
+    public static final String CHANNEL_ZONENAME = "zonename";
+    public static final String CHANNEL_ZONETEMP = "temperature";
 }

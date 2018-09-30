@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<binding:binding id="eliasemudule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<binding:binding id="eliasemodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:binding="http://eclipse.org/smarthome/schemas/binding/v1.0.0"
 	xsi:schemaLocation="http://eclipse.org/smarthome/schemas/binding/v1.0.0 http://eclipse.org/smarthome/schemas/binding-1.0.0.xsd">
 
-	<name>EliasEMudule Binding</name>
-	<description>This is the binding for EliasEMudule.</description>
+	<name>EliasEModule Binding</name>
+	<description>Binding für die REST-API.</description>
 	<author>Dave</author>
-
 </binding:binding>

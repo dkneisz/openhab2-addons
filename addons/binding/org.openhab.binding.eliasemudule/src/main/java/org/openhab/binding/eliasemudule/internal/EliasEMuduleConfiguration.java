@@ -18,5 +18,7 @@ public class EliasEMuduleConfiguration {
     /**
      * Sample configuration parameter. Replace with your own.
      */
-    public String config1;
+    public String user;
+    public String password;
+    public String moduleID;
 }
